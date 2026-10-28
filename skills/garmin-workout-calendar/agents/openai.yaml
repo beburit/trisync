@@ -1,0 +1,6 @@
+interface:
+  display_name: "Garmin Workout Calendar"
+  short_description: "Send Garmin workouts to devices and Google Calendar"
+  default_prompt: "Use $garmin-workout-calendar to add my workout to Garmin, send it to the right device, and schedule it in Google Calendar."
+policy:
+  allow_implicit_invocation: true

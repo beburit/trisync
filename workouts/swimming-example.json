@@ -1,0 +1,44 @@
+{
+  "name": "Example - easy swimming 1800m",
+  "sport": "swimming",
+  "date": "2030-01-10",
+  "pool_length_m": 25,
+  "description": "Example only: 200m warmup, 4x50m technique, 6x200m easy with 25s rest, 200m cooldown. Not a personalized training prescription.",
+  "steps": [
+    {
+      "kind": "warmup",
+      "meters": 200,
+      "notes": "Rustig inzwemmen"
+    },
+    {
+      "repeat": 4,
+      "steps": [
+        {
+          "kind": "interval",
+          "meters": 50,
+          "notes": "Techniek; ontspannen, focus op uitvoering"
+        }
+      ]
+    },
+    {
+      "repeat": 6,
+      "steps": [
+        {
+          "kind": "interval",
+          "meters": 200,
+          "notes": "Ontspannen zwemmen"
+        },
+        {
+          "kind": "rest",
+          "seconds": 25,
+          "notes": "20-30 sec rust; ingesteld op 25 sec"
+        }
+      ]
+    },
+    {
+      "kind": "cooldown",
+      "meters": 200,
+      "notes": "Rustig uitzwemmen"
+    }
+  ]
+}

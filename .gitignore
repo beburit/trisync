@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# TriSync local credentials and runtime data
+.env
+.env.*
+!.env.example
+.venv/
+.workout-packages/
+.mcp-packages/
+__pycache__/
+*.py[cod]
+garmin-data/
+garmin-secrets/
+garmin_tokens.json
+oauth1_token.json
+oauth2_token.json
+connect-personal-api-bearer-token.json
+.pytest_cache/
+*.log

@@ -1,0 +1,2 @@
+-r requirements-workouts.txt
+-r requirements-mcp.txt
